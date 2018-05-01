@@ -173,7 +173,7 @@ class LINE extends LineAPI {
 		if(operation.type == 5 && this.stateStatus.salam == 1) {//someone adding me..
             let halo = new Message();
 			halo.to = operation.param1;
-			halo.text = "Creator: "u67acbba40f5d7983bd60c200e92456e9";
+			halo.text = "Creator: 'u67acbba40f5d7983bd60c200e92456e9';
 			this._client.sendMessage(0, halo);
         }
 
